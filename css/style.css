@@ -178,7 +178,13 @@ navbar-brand{font-size: 23px;}
 #about p span {
     color: #dd5a92;
 }
-
+/* Mobile view */
+@media(max-width:767px) {
+    .hero h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+}
 /* Skill progress bar */
 .progress-outer {
     background: #fff;
